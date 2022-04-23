@@ -6,7 +6,7 @@ public class SmallBullet implements Bullet{
 	private float Iangle;
 	private float Rangle;
 	private boolean exist;
-	private int bulletDamage=1;
+	private int bulletDamage=5;
 	public SmallBullet(Turret t) {
 		x=t.getX();y=t.getY();
 		Iangle=t.getAngle();
